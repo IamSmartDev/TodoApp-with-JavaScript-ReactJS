@@ -1,23 +1,25 @@
 import React, { useState, useEffect } from 'react';
+import './TodoApp.css';
+
 
 const TodoApp = () => {
   const [todos, setTodos] = useState([
     {
       id: 1,
-      title: 'Task 1',
-      description: 'This is the first task',
+      title: 'Coding Prep',
+      description: 'By the end of today, I should have solved over 10 coding challenges',
       completed: false
     },
     {
       id: 2,
-      title: 'Task 2',
-      description: 'This is the second task',
+      title: 'Work Out',
+      description: 'In order to stay fit, I must complete at least 200 push-ups',
       completed: true
     },
     {
       id: 3,
-      title: 'Task 3',
-      description: 'This is the third task',
+      title: 'Task Delivery',
+      description: 'I will complete ant submit any pending task for today',
       completed: false
     }
   ]);

@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    background-image: url('https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .container {
+    /* max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 0;
+    color: #333333;
+  }
+  
+  .input-group {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .input-group input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group button {
+    padding: 10px 16px;
+    margin-left: 10px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: block;
+    padding: 0;
+    
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  li input[type='checkbox'] {
+    margin-right: 10px;
+    align-items: center;
+  }
+  
+  li span {
+    flex: 1;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  li button {
+    margin-left: auto;
+    padding: 10px 15px;
+    background-color: #991700;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
